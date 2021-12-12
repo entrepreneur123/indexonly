@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patrick Star</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- xs, sm, md, lg, xl, xxl -->
+  <!-- 4,8,16,24,32,40,48 -->
+
+  <!-- padding:0; -->
+  <!-- padding:8px 16px; -->
+  <!-- padding:8px 16px 32px; -->
+  <!-- padding:8px 16px 32px 8px; -->
+  <style type="text/css">
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      color: white;
+      background: radial-gradient(circle at top left, #ebe941, #98a509);
+    }
+
+    nav {
+      height: 80px;
+      padding: 0 8vw;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bolder;
+    }
+
+    .nav-items {
+      display: flex;
+      width: 400px;
+      justify-content: space-between;
+    }
+
+    .home {
+      height: calc(100vh - 80px);
+      display: flex;
+    }
+    .text-area,
+    .image-area {
+      width: 50%;
+      height: 100%;
+    }
+
+    .text-area {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 8vw;
+      box-sizing: border-box;
+    }
+
+    .tabs {
+      display: flex;
+    }
+    .tab {
+      font-size: 18px;
+      padding: 8px 24px;
+    }
+
+    .title {
+      font-size: 12vh;
+      font-family: "Lobster", cursive;
+      text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .sub-title {
+      font-weight: bold;
+      font-size: 32px;
+    }
+
+    button {
+      font-family: "Lobster", cursive;
+      background: transparent;
+      padding: 8px 16px;
+      color: white;
+      font-size: 24px;
+      transition: 0.3s;
+      border: 2px solid white;
+    }
+
+    button:hover {
+      background: white;
+      color: #dc6a69;
+    }
+    .image-area {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="logo">Logo</div>
+      <div class="nav-items">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Services</div>
+        <div class="nav-item">Products</div>
+        <div class="nav-item">Contact</div>
+      </div>
+    </nav>
+    <main>
+      <section class="home">
+        <div class="text-area">
+          <div class="tabs">
+            <div class="tab">Games</div>
+            <div class="tab">Movie</div>
+            <div class="tab">Series</div>
+          </div>
+          <div class="title">Patrick</div>
+          <div class="title">Starfish</div>
+          <div class="sub-title">Spongebob's best friend</div>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adcepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. sit amet, consectetur adcepteur sint occaecat
+            cupidatat non
+          </p>
+          <div>
+            <button>Get Started</button>
+          </div>
+        </div>
+        <div class="image-area">
+          <img src="./patrick.png" />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
